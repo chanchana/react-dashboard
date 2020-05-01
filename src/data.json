@@ -1,0 +1,131 @@
+{
+    "a": "5",
+    "b": "6",
+    "clusters": [
+        {
+            "name": "Sport",
+            "percentage": 43,
+            "words": [
+                {"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},
+                {"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},
+                {"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},{"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},{"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},{"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},{"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},{"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},{"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},{"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},{"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},{"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},
+                {"text": "Test3", "value": 27}
+            ],
+            "categories": [
+                {"name": "Sport", "value": 432},
+                {"name": "Fasion", "value": 74},
+                {"name": "Food", "value": 21}
+            ],
+            "types": [
+                {"type": 0, "percentage": 60},
+                {"type": 1, "percentage": 30},
+                {"type": 2, "percentage": 10}
+            ]
+        },
+        {
+            "name": "Food",
+            "percentage": 60,
+            "words": [
+                {"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},
+                {"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},
+                {"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},{"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},{"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},{"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},{"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},{"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},{"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},{"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},{"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},{"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},
+                {"text": "Test3", "value": 27}
+            ],
+            "categories": [
+                {"name": "Food", "value": 432},
+                {"name": "Fasion", "value": 74},
+                {"name": "Sport", "value": 21}
+            ],
+            "types": [
+                {"type": 0, "percentage": 60},
+                {"type": 1, "percentage": 30},
+                {"type": 2, "percentage": 10}
+            ]
+        },
+        {
+            "name": "Music",
+            "percentage": 20,
+            "words": [
+                {"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423}
+            ],
+            "categories": [
+                {"name": "Music", "value": 432},
+                {"name": "Fasion", "value": 74},
+                {"name": "Food", "value": 21}
+            ],
+            "types": [
+                {"type": 0, "percentage": 60},
+                {"type": 1, "percentage": 30},
+                {"type": 2, "percentage": 10}
+            ]
+        },
+        {
+            "name": "Life",
+            "percentage": 10,
+            "words": [
+                {"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},
+                {"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423}
+            ],
+            "categories": [
+                {"name": "Life", "value": 122},
+                {"name": "Fasion", "value": 74},
+                {"name": "Food", "value": 21}
+            ],
+            "types": [
+                {"type": 0, "percentage": 60},
+                {"type": 1, "percentage": 30},
+                {"type": 2, "percentage": 10}
+            ]
+        },
+        {
+            "name": "Movie",
+            "percentage": 10,
+            "words": [
+                {"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},
+                {"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},
+                {"text": "Test", "value": 23423},
+                {"text": "Test2", "value": 2423},
+                {"text": "Test3", "value": 27}
+            ],
+            "categories": [
+                {"name": "Movie", "value": 23423},
+                {"name": "Fasion", "value": 74},
+                {"name": "Food", "value": 21}
+            ],
+            "types": [
+                {"type": 0, "percentage": 60},
+                {"type": 1, "percentage": 30},
+                {"type": 2, "percentage": 10}
+            ]
+        }
+    ]
+}
