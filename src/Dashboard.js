@@ -24,25 +24,31 @@ const data = [
   { name: '17:00', ClickedRate: 0.18, },
 ]
 
-const dataB = [
-  {
-    subject: 'Math', A: 120, B: 110, fullMark: 150,
-  },
-  {
-    subject: 'Chinese', A: 98, B: 130, fullMark: 150,
-  },
-  {
-    subject: 'English', A: 86, B: 130, fullMark: 150,
-  },
-  {
-    subject: 'Geography', A: 99, B: 100, fullMark: 150,
-  },
-  {
-    subject: 'Physics', A: 85, B: 90, fullMark: 150,
-  },
-  {
-    subject: 'History', A: 65, B: 85, fullMark: 150,
-  },
+const dataRadar = [
+  {A: 23, B: 77, fullMark: 100,},
+  {A: 21, B: 79, fullMark: 100,},
+  {A: 8, B: 92, fullMark: 100,},
+  {A: 12, B: 88, fullMark: 100,},
+  {A: 6, B: 94, fullMark: 100,},
+  {A: 7, B: 93, fullMark: 100,},
+  {A: 12, B: 88, fullMark: 100,},
+  {A: 14, B: 86, fullMark: 100,},
+  {A: 16, B: 84, fullMark: 100,},
+  {A: 31, B: 69, fullMark: 100,},
+  {A: 34, B: 66, fullMark: 100,},
+  {A: 35, B: 65, fullMark: 100,},
+  {A: 40, B: 60, fullMark: 100,},
+  {A: 32, B: 68, fullMark: 100,},
+  {A: 18, B: 82, fullMark: 100,},
+  {A: 16, B: 84, fullMark: 100,},
+  {A: 15, B: 85, fullMark: 100,},
+  {A: 14, B: 86, fullMark: 100,},
+  {A: 17, B: 83, fullMark: 100,},
+  {A: 14, B: 86, fullMark: 100,},
+  {A: 12, B: 88, fullMark: 100,},
+  {A: 21, B: 79, fullMark: 100,},
+  {A: 26, B: 74, fullMark: 100,},
+  {A: 24, B: 76, fullMark: 100,},
 ];
 
 function App() {
@@ -128,7 +134,7 @@ function App() {
           <Col md={4}>
             <Card title="Click/Not Click in Each Hour">
               <ResponsiveContainer minHeight='240px' height='100%' width='100%' >
-                <RadarChart outerRadius={120} data={dataB} >
+                <RadarChart outerRadius={120} data={dataRadar} >
                   <PolarGrid />
                   <Radar name="Click" dataKey="A" stroke="#8884d8" fill="#8884d8" fillOpacity={0.5} />
                   <Radar name="Not Click" dataKey="B" stroke="#82ca9d" fill="#82ca9d" fillOpacity={0.5} />
