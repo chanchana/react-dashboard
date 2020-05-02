@@ -155,7 +155,7 @@ class ClusterSummary extends React.Component {
           <Col md={4}>
             <Button variant="light" onClick={() => this.clickCluster(0)}>Show All</Button>
             <div style={{width:'100%', height:'420px'}}>
-              <p onClick={() => this.clickCluster(1)}><ClusterBubble number='1' name={data.clusters[1].name} percentage={data.clusters[1].percentage} x={170} y={50} radius={100} active={this.state.activeCluster[0]}/></p>
+              <p onClick={() => this.clickCluster(1)}><ClusterBubble number='1' name={data.clusters[1].name} percentage={data.clusters[1].percentage} x={170} y={50} radius={90} active={this.state.activeCluster[0]}/></p>
               <p onClick={() => this.clickCluster(2)}><ClusterBubble number='2' name={data.clusters[2].name} percentage={data.clusters[2].percentage} x={50} y={200} radius={80} active={this.state.activeCluster[1]}/></p>
               <p onClick={() => this.clickCluster(3)}><ClusterBubble number='3' name={data.clusters[3].name} percentage={data.clusters[3].percentage} x={220} y={280} radius={60} active={this.state.activeCluster[2]}/></p>
               <p onClick={() => this.clickCluster(4)}><ClusterBubble number='4' name={data.clusters[4].name} percentage={data.clusters[4].percentage} x={20} y={80} radius={60} active={this.state.activeCluster[3]}/></p>
